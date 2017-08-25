@@ -1,0 +1,29 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="Particle.js"></script>
+	<script src="Particles.js"></script>
+	<style>
+			body {
+				margin:0;
+				padding:0;
+			}
+			#network-animation {
+				width:100%;
+				height:100%;
+			}
+	</style>
+</head>
+<body>
+<div id="network-animation"></div>
+
+	<script>
+		var particleCanvas = new Particles(document.getElementById('network-animation'), {
+			velocity: 'fast',
+			density: 'high'
+		});
+	</script>
+	
+</body>
+</html>
